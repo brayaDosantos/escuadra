@@ -35,25 +35,23 @@ El proyecto contempla herramientas para distintas áreas, entre ellas:
 Clonar el repositorio:
 	git clone https://github.com/sis-inf/escuadra.git
 	cd escuadra
-Instalar dependencias (si aplica):
-	npm install
+Instalar dependencias:
+pip install -r requirements.txt
 	
 ## Uso rápido
 
 Ejecutar el proyecto:
-	npm start
-O alternativamente:
-	node index.js
+	python main.py
 
 ## Ejemplo de uso
 
 Ejemplo simple de una herramienta del proyecto:
-	function calcularArea(base, altura) {
-	  return (base * altura) / 2;
-	}
+function calculateArea(base, height) {
+  return (base * height) / 2;
+}
 
-	console.log(calcularArea(10, 5));
-	>> Resultado: 25
+console.log(calculateArea(10, 5));
+// Resultado: 25
 
 ## Documentación
 Ver la carpeta [docs/](docs/)
